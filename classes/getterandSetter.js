@@ -15,7 +15,6 @@ class User {
   set email(value) {
     this._email = value;
   }
-  
 }
 
 const user1 = new User("Piyush", "123abc");
