@@ -1,15 +1,17 @@
-function createUser(name, bank, balance) {
-  const user = {};
-  user.name = name;
-  user.bank = bank;
-  user.balance = balance;
-
-  user.withdraw = function (amount) {
-    this.balance = this.balance - amount;
-  };
+class User{
+  constructor(name ,  bank , balance){
+    this.name = name ;
+    this.bank = bank ;
+    this.balance = balance ;
+  }
+  withdrawalAmount(amount ){
+    return this.balance -= amount;
+  }
 }
 
-const user1 = createUser("kapil", "sbi", "10000");
-const user2 = createUser("kajal", "ICICI", "50000");
+const user1 = new User ("Piyush", "ICICI", 50000);
 
 
+console.log(user1);
+
+console.log(user1.withdrawalAmount(5000));
