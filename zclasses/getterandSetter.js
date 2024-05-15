@@ -1,5 +1,6 @@
 class User {
-  constructor(email, password) {
+  constructor(name, email, password) {
+    this.name = name;
     this.email = email;
     this.password = password;
   }
@@ -17,6 +18,5 @@ class User {
   }
 }
 
-const user1 = new User("Piyush", "123abc");
-console.log(user1.email);
-console.log(user1.password);
+const user1 = new User("Piyush", "Piyush@gmail.com", "123abc");
+console.log(user1);
