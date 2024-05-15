@@ -1,15 +1,5 @@
-
-When you include ```javascript after the opening triple backticks (```) to denote the beginning of a code block, Markdown renders the code inside with JavaScript syntax highlighting. This is useful for making code snippets more readable within your README file.
-
-Here's an example of how it would look:
-
-```javascript
-
-function myFunction() {
-    // Your JavaScript code here
-    console.log('Hello, world!');
-}
-```
+# This is Readme of my js frontend 3 
+# Here text Shadow property is important to learn
 ```css
 *{
   margin: 0;
@@ -24,6 +14,7 @@ body {
   background-color: #131313;
   /* margin-bottom: 10%; */
 }
+// This is impotant to learn
 h1 {
   font-size: 4rem;
   color: #a53e3e;
