@@ -1,7 +1,5 @@
 # This is Readme of my js frontend 3
 
-# Here text Shadow property is important to learn
-
 # links
 
 ## Object-Oriented Programming (OOP)
@@ -16,7 +14,7 @@
 ## Polyfills
 - [CSBin: Callbacks](http://csbin.io/callbacks)
 
-
+## Here text Shadow property is important to learn
 ```css
 * {
   margin: 0;
