@@ -1,4 +1,4 @@
-console.log(this);
+// console.log(this);
 
 Function.prototype.bind = function (object, ...respara) {
   // This keyword have access of f1

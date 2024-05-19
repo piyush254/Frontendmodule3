@@ -58,3 +58,60 @@ getName(...names);
 // getName(names)
 
 */
+
+//  reducer function working with spread and reducer function
+/*
+let arr = [1, 2, 3];
+
+let arr2 = [4, 5, 6];
+
+arr = [...arr, ...arr2];
+
+// console.log(arr);
+
+function multiply(...respara) {
+  return respara.reduce((accu, current) => {
+    return accu * current;
+  }, 1);
+}
+
+function sum(...respara) {
+  return respara.reduce((accu, current) => {
+    return accu + current;
+  }, 0);
+}
+
+console.log(multiply(...arr));
+console.log(sum(...arr));
+
+
+
+let arr = [1,2,3,4,5,6,7,8,9,10];
+
+console.log(arr);
+
+const getMax = (a, b) => Math.max(a, b);
+
+// callback is invoked for each element in the array starting at index 0
+ let a =[1, 100].reduce(getMax, 50); // 100
+ console.log(a);
+let b = [50].reduce(getMax, 10); // 50
+console.log(b);
+// callback is invoked once for element at index 1
+[1, 100].reduce(getMax); // 100
+
+// callback is not invoked
+[50].reduce(getMax); // 50
+ let c = [].reduce(getMax, 1); // 1
+console.log(c);
+
+// we cannot use reduce over empty array with no initial value
+[].reduce(getMax); // TypeError
+
+
+*/
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+
+console.log(arr);
