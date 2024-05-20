@@ -9,14 +9,13 @@ Function.prototype.bind = function (object, ...respara) {
 };
 
 function fn(city) {
-  console.log( "Name : "+this.name + "\nCity : " + city);
+  console.log("Name : " + this.name + "\nCity : " + city);
 }
-
 
 const user = {
-  name : "Ankit"
-}
+  name: "Ankit",
+};
 
-const fn2 = fn.bind(user , "Kota");
+const fn2 = fn.bind(user, "Kota");
 
 fn2();

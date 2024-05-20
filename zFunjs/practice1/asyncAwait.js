@@ -28,12 +28,13 @@ dataPromis.then((response) => {
 
 */
 
+/*
 // Await can use only inside asyc function only
-
+// This is important
 async function handlePromise() {
   console.log("Hello WebDev");
   const val = await p;
-  console.log("Namaskar JavaScript val");
+  console.log("Namaskar JavaScript for val");
   console.log(val);
 // Suspend after the fullfilling of promise p
 
@@ -43,7 +44,7 @@ async function handlePromise() {
 }
 
 handlePromise();
-
+*/
 // function getData (){
 //   p.then(res => {
 //     console.log(res)
@@ -61,3 +62,17 @@ handlePromise();
 
 // getData()
 
+const Api = "https://api.github.com/users/Piyush254";
+// const Api = "https://api.giithub.com/users/Piyush254"
+
+async function handlePromise() {
+  try {
+    const data = await fetch(Api);
+    const jsonvalue = await data.json();
+    console.log(jsonvalue);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+handlePromise();
