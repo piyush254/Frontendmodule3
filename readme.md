@@ -15,10 +15,10 @@
 - [CSBin: Callbacks](http://csbin.io/callbacks)
 
 ## jobs
-[Instahyre](https://www.instahyre.com/)
+- [Instahyre](https://www.instahyre.com/)
 
 ## React
-[Scrimba React Course](https://v2.scrimba.com/learn-react-c0e)
+- [Scrimba React Course](https://v2.scrimba.com/learn-react-c0e)
 
 
 ## Here text Shadow property is important to learn
