@@ -1,5 +1,6 @@
 // console.log(this);
-
+// This coade have a mistake
+// the mistake is f1.call(object , respara)
 Function.prototype.bind = function (object, ...respara) {
   // This keyword have access of f1
   const f1 = this;
@@ -19,3 +20,4 @@ const user = {
 const fn2 = fn.bind(user, "Kota");
 
 fn2();
+

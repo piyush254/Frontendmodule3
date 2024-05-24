@@ -14,12 +14,21 @@
 ## Polyfills
 - [CSBin: Callbacks](http://csbin.io/callbacks)
 
+## jobs
+[Instahyre](https://www.instahyre.com/)
+
+## React
+[Scrimba React Course](https://v2.scrimba.com/learn-react-c0e)
+
+
 ## Here text Shadow property is important to learn
 ```css
 * {
   margin: 0;
   scrollbar-width: none;
   padding: 0;
+   /* https://v2.scrimba.com/learn-react-c0e 
+   https://www.instahyre.com/  */
 }
 body {
   /* height: 100%; */
