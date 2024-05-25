@@ -20,6 +20,8 @@
 ## React
 - [Scrimba React Course](https://v2.scrimba.com/learn-react-c0e)
 
+## important question
+- [For interview](./zFunjs/practice1/IIFE.js)
 
 ## Here text Shadow property is important to learn
 ```css
