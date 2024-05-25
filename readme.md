@@ -14,7 +14,7 @@
 ## Polyfills
 - [CSBin: Callbacks](http://csbin.io/callbacks)
 
-## jobs
+## Jobs
 - [Instahyre](https://www.instahyre.com/)
 
 ## React
@@ -27,17 +27,8 @@
   margin: 0;
   scrollbar-width: none;
   padding: 0;
-   /* https://v2.scrimba.com/learn-react-c0e 
-   https://www.instahyre.com/  */
 }
-body {
-  /* height: 100%; */
-  box-sizing: border-box;
-  padding-left: 10%;
-  /* border: 2px solid black; */
-  background-color: #131313;
-  /* margin-bottom: 10%; */
-}
+
 // This is impotant to learn
 h1 {
   font-size: 4rem;
@@ -56,44 +47,6 @@ h1 {
     -24px 48px 1px #d8d6d5, -25px 50px 1px #dbdad9, -26px 52px 1px #dfdddc, -27px
       54px 1px #e2e0df;
 }
-#orange {
-  color: orange;
-  width: 100px;
-  text-transform: uppercase;
-  height: 30px;
-}
-
-#red {
-  margin-left: 2%;
-  margin-top: 4%;
-  color: #008000;
-  text-transform: uppercase;
-  width: 100px;
-  height: 30px;
-}
-
-button {
-  margin-left: 2%;
-  /* margin-top: 4%; */
-  color: #008000;
-  text-transform: uppercase;
-  width: 100px;
-  height: 30px;
-}
-
-.main {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.btndiv {
-  align-self: flex-end;
-  min-width: 400px;
-  margin-bottom: 20%;
-}
-
 #time {
   border: 1px solid brown;
   background-color: #131313;
@@ -104,10 +57,6 @@ button {
     -6px 12px 1px #828181;
 }
 
-#time span {
-  color: #fff;
-  font-size: 2rem;
-}
 ```
 ### Piyush
 # END OF README
