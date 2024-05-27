@@ -20,17 +20,11 @@
 ## React
 - [Scrimba React Course](https://v2.scrimba.com/learn-react-c0e)
 
-## important question
-- [For interview](./zFunjs/practice1/IIFE.js)
+## Important question
+- [For interview](./zFunjs/practice1/importantQuestion.js)
 
 ## Here text Shadow property is important to learn
 ```css
-* {
-  margin: 0;
-  scrollbar-width: none;
-  padding: 0;
-}
-
 // This is impotant to learn
 h1 {
   font-size: 4rem;
