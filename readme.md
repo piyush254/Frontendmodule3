@@ -5,7 +5,7 @@
 ## Object-Oriented Programming (OOP)
 - [CSBin: OOP](http://csbin.io/oop)
 ## Notes
-- [Notes : PDF] (https://drive.google.com/drive/folders/1gH9uyXRhF7vjavck_6pCgSe3uvN9dG3t)
+- [Notes : PDF](https://drive.google.com/drive/folders/1gH9uyXRhF7vjavck_6pCgSe3uvN9dG3t)
 
 ## Closures
 - [CSBin: Closures](http://csbin.io/closures)
