@@ -30,6 +30,8 @@
 
 // we cannot change value in JSON
 
-// infnity cuddyg
+// infnity curry
+// Output based question
 
+// Youtube - Frontend master
 
