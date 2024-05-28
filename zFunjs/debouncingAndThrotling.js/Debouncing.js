@@ -16,4 +16,17 @@ function myDebouncing(call, delay) {
 
 const BetterFunction = myDebouncing(getData, 300);
 
-document.getElementById('debounce-input').addEventListener('input', BetterFunction);
+
+
+const inputElement = document.createElement('input');
+
+inputElement.style.padding = '2%';
+inputElement.style.textTransform = 'capitalize';
+inputElement.type = 'text';
+inputElement.id = 'debounce-input';
+inputElement.placeholder = 'Type something...';
+
+document.getElementById('container').append(inputElement);
+
+
+inputElement.addEventListener('input', BetterFunction);
